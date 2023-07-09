@@ -1,0 +1,5 @@
+<%= turbo_stream_from(["heavy_task_channel"]) %>
+
+<div id="heavy_task">
+  <%= button_to("Perform Heavy Task", heavy_tasks_path, class: "") %>
+</div>
